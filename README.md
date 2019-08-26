@@ -1,29 +1,16 @@
 # example-autocomplete
 
-## Project setup
-```
-npm install
-```
+Example autocomplete field made in Vue.js by [Enrico Fasoli](https://github.com/fazo96)
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Development
 
-### Compiles and minifies for production
-```
-npm run build
-```
+- `npm install` to install dependencies
+- `npm start` to run a local development server
+- `npm run build` to make a production build
 
-### Run your tests
-```
-npm run test
-```
+## Implementation details
 
-### Lints and fixes files
-```
-npm run lint
-```
+Implemented using Vue and the `vue-select` library. Other libraries have been used
+for minor things, check `package.json` and the source code for more information.
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+The scaffolding has been done using `@vue/cli`.
