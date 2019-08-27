@@ -26,6 +26,7 @@
 <script>
 import vSelect from 'vue-select'
 import VueMarkdown from 'vue-markdown'
+import fetch from 'isomorphic-fetch'
 
 import 'vue-select/dist/vue-select.css'
 
@@ -64,7 +65,6 @@ export default {
             body: sliceBody(r.body),
             id: r.id
           }))
-          console.log(this.options)
         }
         loading(false)
       } else {
