@@ -2,6 +2,12 @@
 
 Example autocomplete field made in Vue.js by [Enrico Fasoli](https://github.com/fazo96)
 
+## Try it
+
+The project is hosted on GitHub Pages
+
+https://fazo96.github.io/example-autocomplete/
+
 ## Development
 
 - `npm install` to install dependencies
